@@ -151,6 +151,13 @@ li {
           width: 120px;
         }
       }
+      .appolly_logo_hamburger{
+        border-radius: 5px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 90px;
+      }
       .download_btn {
         color: #fff;
         border: none;
@@ -443,6 +450,9 @@ li {
   flex-direction: column;
   background-image: url("./assets/Background\ Image.png");
   background-size: cover;
+  .visible_for_video{
+    overflow: visible;
+  }
   p:nth-child(1) {
     font-weight: 700;
     font-size: 31px;
@@ -471,8 +481,24 @@ li {
         width: 600px;
       }
     }
+    @media screen and (max-width: 600px) {
+      img {
+        width: 500px;
+      }
+    }
+    @media screen and (max-width: 425px) {
+      img {
+        width: 300px;
+      }
+    }
     img {
       margin-bottom: -230px;
+      @media screen and (max-width: 600px) {
+        margin-bottom: -180px;
+      }
+      @media screen and (max-width: 425px) {
+        margin-bottom: -70px;
+      }
     }
     .use_app_perfectly_svg {
       position: absolute;
@@ -485,15 +511,39 @@ li {
       }
       svg:nth-child(1) {
         top: -7px;
+        @media screen and (max-width: 600px) {
+          top: 48px;
+        }
+        @media screen and (max-width: 425px) {
+          top: -25px;
+        }
       }
       svg:nth-child(2) {
         top: -2px;
+        @media screen and (max-width: 600px) {
+          top: 53px;
+        }
+        @media screen and (max-width: 425px) {
+          top: -20px;
+        }
       }
       svg:nth-child(3) {
         top: 3px;
+        @media screen and (max-width: 600px) {
+          top: 58px;
+        }
+        @media screen and (max-width: 425px) {
+          top: -15px;
+        }
       }
       svg:nth-child(4) {
         top: 20px;
+        @media screen and (max-width: 600px) {
+          top: 74px;
+        }
+        @media screen and (max-width: 425px) {
+          top: 0px;
+        }
       }
     }
   }

@@ -168,6 +168,13 @@ li {
     width: 120px;
   }
 }
+.nav .nav_hamburger_menu ul .appolly_logo_hamburger {
+  border-radius: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 90px;
+}
 .nav .nav_hamburger_menu ul .download_btn {
   color: #fff;
   border: none;
@@ -500,6 +507,9 @@ li {
   background-image: url("./assets/Background Image.png");
   background-size: cover;
 }
+.section_use_app_perfectly .visible_for_video {
+  overflow: visible;
+}
 .section_use_app_perfectly p:nth-child(1) {
   font-weight: 700;
   font-size: 31px;
@@ -529,8 +539,28 @@ li {
     width: 600px;
   }
 }
+@media screen and (max-width: 600px) {
+  .section_use_app_perfectly .use_app_perfectly_video img {
+    width: 500px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section_use_app_perfectly .use_app_perfectly_video img {
+    width: 300px;
+  }
+}
 .section_use_app_perfectly .use_app_perfectly_video img {
   margin-bottom: -230px;
+}
+@media screen and (max-width: 600px) {
+  .section_use_app_perfectly .use_app_perfectly_video img {
+    margin-bottom: -180px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section_use_app_perfectly .use_app_perfectly_video img {
+    margin-bottom: -70px;
+  }
 }
 .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg {
   position: absolute;
@@ -545,14 +575,54 @@ li {
 .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(1) {
   top: -7px;
 }
+@media screen and (max-width: 600px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(1) {
+    top: 48px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(1) {
+    top: -25px;
+  }
+}
 .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(2) {
   top: -2px;
+}
+@media screen and (max-width: 600px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(2) {
+    top: 53px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(2) {
+    top: -20px;
+  }
 }
 .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(3) {
   top: 3px;
 }
+@media screen and (max-width: 600px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(3) {
+    top: 58px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(3) {
+    top: -15px;
+  }
+}
 .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(4) {
   top: 20px;
+}
+@media screen and (max-width: 600px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(4) {
+    top: 74px;
+  }
+}
+@media screen and (max-width: 425px) {
+  .section_use_app_perfectly .use_app_perfectly_video .use_app_perfectly_svg svg:nth-child(4) {
+    top: 0px;
+  }
 }
 
 .section_our_team {
